@@ -36,3 +36,6 @@ pickle-email-*.html
 
 # Ignore env variable file
 .env
+
+#twitter api keys
+config/twitter.yml

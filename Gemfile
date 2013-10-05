@@ -24,8 +24,11 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
-# OAuth for Twitter authentication
-gem 'oauth', '0.3.6'
+# batman.js  ... just because
+gem "batman-rails"
+
+# Twitter streaming API Gem
+gem 'tweetstream',  '~> 2.5.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -33,6 +36,7 @@ gem 'jbuilder', '~> 1.2'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
+  
 end
 
 # Use ActiveModel has_secure_password

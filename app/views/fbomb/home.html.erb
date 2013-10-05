@@ -1,41 +1,42 @@
-<nav class="navbar navbar-fixed-bottom navbar-inverse" role="navigation">
-  <div class="container">
+
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container ">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">FBomb</a>
+      <h3 style="color:#fff;">FBomb</h3>
+      <!-- <a class="navbar-brand" href="#">Bootstrap theme</a> -->
     </div>
-       
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <div class="navbar-collapse collapse" style="padding-top:8px;">
       <ul class="nav navbar-nav">
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container -->
-</nav>
+      </li>
+    </ul>
+    <div style="padding-top:15px;">
+      <ul class="nav navbar-nav navbar-right">
+        <li><small style="color:white;">created by: <a href="http://mgingras.ca">Martin Gingras</a></small></li>
+      </ul></div>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
 
 
-<!-- <div class="alert alert-dismissable" style:"z-index:100;position:re">
+
 
   
 </div> -->
 
 
-<div class="alert alert-dismissable navbar-inverse navbar-brand" style="z-index:100;position:relative;color:#fff;">
-  <button type="button" class="close" data-dismiss="alert" aria-hidden="true" style="color:#fff;opacity:1;.hover{opacity:.5;}">&times;</button>
+<div id="title-bar" class="alert alert-dismissable navbar-inverse navbar-brand">
+  <button id="title-close" type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
   <strong>FBomb!</strong> <small style="color:#999">See where in the world the Fbomb is being dropped!!</small>
-  <!-- <div class="container">
-    <h1>Hello, world!</h1>
-    <p>...</p>
-    <p><a class="btn btn-primary btn-lg">Learn more</a></p>
-  </div> -->
 </div>
 
-  <div id="map-canvas"></div>'
+<div id="map-canvas"></div>'
 </div> <!-- .container -->

@@ -11,4 +11,3 @@ $(document).ready ->
     disableDoubleClickZoom: true,
     scrollwheel: false
   map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions)
-;

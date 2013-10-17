@@ -9,7 +9,8 @@ $(document).ready ->
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     disableDefaultUI: true,
     disableDoubleClickZoom: true,
-    scrollwheel: false
+    zoomControl: true
+    # scrollwheel: false
   map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions)
   
 $.get "tweets", (data) ->

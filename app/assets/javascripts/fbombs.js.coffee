@@ -33,14 +33,3 @@ retreiveBombs = ->
         title: text
       })
       marker.setMap(map)
-      # console.log key + " " + val[0].text + ": " + val[0].coordinates
-      # console.log key + " " + val[0].text + ": " + val[0].coordinates[0]#JSON.stringify(val)
-  # alert "Test"
-  
-#   
-# $.get "tweets", (data) ->
-#   alert "Load was performed." + data
-  
-# $.get( "tweets", function( data ) {
-#   alert( "Load was performed." + data);
-# });
